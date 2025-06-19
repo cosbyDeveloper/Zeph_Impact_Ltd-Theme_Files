@@ -151,14 +151,6 @@
 	position: relative;
 }
 
-#testimonials .swiper-pagination .swiper-pagination-bullet {
-	width: 12px;
-	height: 12px;
-	background-color: #fff;
-	opacity: 1;
-	border: 1px solid #007bff;
-}
-
 /* Team Section
 --------------------------------*/
 #team {
@@ -234,6 +226,25 @@
 #team .member .social i {
 	font-size: 18px;
 	margin: 0 2px;
+}
+
+/* Swiper */
+.swiper-button-prev,
+.swiper-button-next {
+	color: var(--bs-primary);
+}
+
+.swiper-pagination-bullet {
+	width: 12px;
+	height: 12px;
+	background-color: #fff;
+	opacity: 1;
+	border: 1px solid #c167ef;
+	opacity: 1;
+}
+
+.swiper-pagination-bullet-active {
+	background-color: var(--bs-primary); /* Or use a fixed color like #c167ef */
 }
 
 @media (max-width: 1000px) {
