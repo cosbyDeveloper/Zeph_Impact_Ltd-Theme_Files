@@ -30,6 +30,10 @@
 	border: none;
 }
 
+.hero-cta a:hover {
+	text-decoration: none;
+}
+
 /* Services Section */
 #services .service-card:hover img,
 #latest-updates .card:hover img {
